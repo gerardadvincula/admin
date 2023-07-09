@@ -1,0 +1,37 @@
+.sidebar-header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.sidebar-logo {
+  height: 110px;
+  width: auto;
+}
+
+.sidebar-header-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.broken-toggle-btn {
+  background-color: transparent;
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.collapse-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.sidebar-spacer {
+  margin-bottom: 100px;
+}

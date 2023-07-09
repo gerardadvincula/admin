@@ -1,0 +1,77 @@
+.orders {
+  display: flex;
+}
+
+.orderContainer {
+  flex: 6;
+  flex-grow: 1;
+}
+
+.statusCompleted {
+  background-color: rgba(0, 128, 0, 0.05);
+  color: green;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.statusToShip {
+  background-color: rgba(0, 128, 0, 0.05);
+  color: blue;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.statusPending {
+  background-color: rgba(255, 217, 0, 0.05);
+  color: goldenrod;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.statusCancelled {
+  background-color: rgba(255, 0, 0, 0.05);
+  color: crimson;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}
+
+.order-actionbtn {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.proofOfPaymentImage {
+  width: auto;
+  height: 300px;
+  object-fit: contain;
+}
+
+.order-trackingnumber {
+  height: 25px;
+  font-size: 18px;
+  border: none;
+  width: 100%;
+}
+
+.order-trackingnumber:focus {
+  outline: none;
+}
+
+.order-courierlist {
+  width: 90%;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+}

@@ -1,0 +1,62 @@
+.confirmation {
+  width: 450px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.confirmationHeader {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 25px;
+  font-size: 20px;
+}
+
+.confirmationBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 225px;
+  font-size: 20px;
+}
+
+.confirmationDivBtns {
+  margin-top: 20px;
+}
+
+.confirmationBtnYes {
+  width: 100px;
+  height: 50px;
+  margin-right: 5px;
+  background-color: #37c180;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.confirmationBtnYes:hover {
+  border: 2px solid #37c180;
+  background-color: transparent;
+  color: black;
+}
+
+.confirmationBtnNo {
+  width: 100px;
+  height: 50px;
+  margin-left: 5px;
+  background-color: #e45253;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.confirmationBtnNo:hover {
+  border: 2px solid #e45253;
+  background-color: transparent;
+  color: black;
+}

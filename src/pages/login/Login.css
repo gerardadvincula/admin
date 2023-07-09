@@ -1,0 +1,132 @@
+/* Container for the whole page */
+.login-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Left side of the page */
+.login-left {
+  background-image: linear-gradient(to left, transparent 30%, #ccc 95%),
+    url("../../assets/images/silky-smooth-skin.jpg");
+  background-size: cover;
+  color: white;
+  padding: 30px;
+  flex: 1;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-left h2,
+p {
+  color: black;
+}
+
+/* Right side of the page */
+.login-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  flex: 1;
+}
+
+.login-logo {
+  height: 150px;
+  width: auto;
+}
+
+.login-right-itemlist {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form for the login inputs and button */
+.login-right form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.login-right h1 {
+  margin-bottom: 20px;
+}
+
+.login-right label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.login-right p {
+  max-width: 350px;
+  word-wrap: break-word;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-right input[type="email"],
+.login-right input[type="password"] {
+  width: 330px;
+  padding: 10px 0px 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.login-right button[type="submit"] {
+  background-color: #a09c96;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 350px;
+  padding: 10px 0px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.login-right button[type="submit"]:hover {
+  background-color: #49474a;
+}
+
+.login-signup-container {
+  margin-top: 30px;
+}
+
+.signup {
+  background-color: transparent;
+  color: black;
+  border: none;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px) {
+  .login-left {
+    width: 40%;
+  }
+
+  .login-right {
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-container {
+    width: 100%;
+  }
+  /* Hide the left side of the page on mobile devices */
+  .login-left {
+    display: none;
+  }
+
+  /* Adjust the width of the form on mobile devices */
+  .login-right {
+    width: 80%;
+  }
+}

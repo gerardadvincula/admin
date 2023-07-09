@@ -1,0 +1,10 @@
+.actionButtonDisable {
+  padding: 5px;
+  text-align: center;
+  border: none;
+  background-color: #0071c2;
+  color: white;
+  border-radius: 5px;
+  cursor: not-allowed;
+  opacity: 0.5;
+}

@@ -1,0 +1,42 @@
+.productAddBtn {
+  text-decoration: none;
+  color: green;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 10px;
+}
+
+.productImage {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.variationPrice {
+  font-size: 15px;
+  width: 145px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.addVariationNumber {
+  display: flex;
+  margin: 15px 0;
+}
+
+.addVariationNumber label {
+  font-size: 15px;
+}
+
+.product-actionbtn {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,165 @@
+.productJson {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.productJsonContainer {
+  flex: 10;
+}
+
+.orderItem {
+  margin: 10px 10px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.orderStatus {
+  font-size: 30px;
+  font-weight: 400;
+  color: #f14d2d;
+  text-align: right;
+  margin: 10px 0;
+  padding-right: 10px;
+}
+
+.orderHorizontalLine {
+  width: 100%;
+  background-color: rgb(44, 42, 42);
+  opacity: 0.2;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.orderHorizontalLineInside {
+  width: 100%;
+  background-color: rgb(44, 42, 42);
+  opacity: 0.2;
+  height: 1px;
+  margin: 20px 0px;
+}
+
+.productJsonOrderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orderDetailsContainer {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.orderImg {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.orderProductName {
+  font-size: 30px;
+  color: #0071c2;
+  margin-bottom: 10px;
+}
+
+.orderVariationName {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.orderProductPrice {
+  text-align: right;
+  font-size: 25px;
+  color: #f14d2d;
+  padding-right: 20px;
+}
+
+.orderQuanitty {
+  font-size: 20px;
+}
+
+.orderTotalPrice {
+  color: #f14d2d;
+  padding-left: 20px;
+}
+
+.orderSubmitProofContainer {
+  display: flex;
+  align-items: right;
+  flex-direction: column;
+}
+
+.orderProductImageContainer {
+  padding-left: 20px;
+}
+
+.orderInputImageLabel {
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  padding: 10px;
+  border: 1px dashed black;
+  margin-top: 10px;
+}
+
+.orderItemSubmitBtn {
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  width: auto;
+  background: linear-gradient(to left, #ee790f 0%, #eb525a 100%);
+}
+
+@media screen and (max-width: 760px) {
+  .orderItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .productJsonOrderContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .orderContainer {
+    flex-direction: column;
+  }
+  .orderDetailsContainer {
+    text-align: center;
+    align-items: center;
+    margin: 0 10px;
+  }
+  .orderItemSubmitBtn {
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    width: auto;
+    background: linear-gradient(to left, #ee790f 0%, #eb525a 100%);
+  }
+  .orderInputImageLabel {
+    font-size: 15px;
+    cursor: pointer;
+    padding: 6px;
+    border: 1px dashed black;
+    margin-top: 10px;
+    width: auto;
+  }
+  .orderSubmitProofContainer {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
